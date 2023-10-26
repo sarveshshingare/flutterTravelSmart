@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
+import 'package:travelsmart/widgets/ticekt_tabs.dart';
 import 'package:travelsmart/utils/app_layout.dart';
 import 'package:travelsmart/utils/styles.dart';
 import 'package:travelsmart/widgets/double_text_widget.dart';
@@ -22,36 +23,8 @@ class SearchScreen extends StatelessWidget {
             style: Styles.headlineStyle1.copyWith(fontSize: 35),
           ),
           const Gap(20),
-          FittedBox(
-            child: Container(
-              padding: const EdgeInsets.all(3.5),
-              decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(20),
-                  color: const Color(0xfff4f6fd)),
-              child: Row(children: [
-                Container(
-                  width: size.width * 0.44,
-                  padding: const EdgeInsets.symmetric(vertical: 7),
-                  decoration: const BoxDecoration(
-                      borderRadius:
-                          BorderRadius.horizontal(left: Radius.circular(20)),
-                      color: Colors.white),
-                  child: const Center(child: Text("Airline tickets")),
-                ),
-
-                // -------------------------hotels---------------------------------
-                Container(
-                  width: size.width * 0.44,
-                  padding: const EdgeInsets.symmetric(vertical: 7),
-                  decoration: BoxDecoration(
-                      borderRadius:
-                          BorderRadius.horizontal(right: Radius.circular(20)),
-                      color: Colors.transparent),
-                  child: const Center(child: Text("Hotels")),
-                )
-              ]),
-            ),
-          ),
+          const AppTicektTabs(
+              firstTab: "Aireline tickets", secondTab: "Hotels"),
           const Gap(25),
           const AppIconText(
               icon: Icons.flight_takeoff_rounded, text: "departure"),
@@ -95,13 +68,24 @@ class SearchScreen extends StatelessWidget {
                 child: Column(
                   children: [
                     Container(
-                      height: 190,
-                      decoration: BoxDecoration(
+                        height: 190,
+                        decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(12),
                           image: const DecorationImage(
                               fit: BoxFit.cover,
-                              image: AssetImage("assets/images/sit.jpg"))),
-                    ),
+                              image: AssetImage("assets/images/sit.jpg"))
+                        ),
+                        ),
+                    // Container(
+                    //   decoration: BoxDecoration(
+                    //       color: Colors.white,
+                    //       borderRadius: BorderRadius.circular(12)),
+                    //   height: 190,
+                    //   child: Image.network(
+                    //     "https://upload.wikimedia.org/wikipedia/commons/8/84/DelhiMetroYellowLine.JPG",
+                    //     fit: BoxFit.cover,
+                    //   ),
+                    // ),
                     const Gap(20),
                     Text(
                       "20% discount on early booking. Don't miss the chance ",
@@ -173,7 +157,7 @@ class SearchScreen extends StatelessWidget {
                           ),
                           textAlign: TextAlign.center,
                         ),
-                        const Gap(5),
+                        const Gap(15),
                         RichText(
                             text: const TextSpan(children: [
                           TextSpan(text: '😍', style: TextStyle(fontSize: 30)),

@@ -2,6 +2,7 @@ import 'package:fluentui_icons/fluentui_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:travelsmart/screens/home_screen.dart';
 import 'package:travelsmart/screens/search_screen.dart';
+import 'package:travelsmart/screens/ticket_scree.dart';
 
 class BottomBar extends StatefulWidget {
   const BottomBar({Key? key}) : super(key: key);
@@ -23,7 +24,7 @@ class _BottomBarState extends State<BottomBar> {
   static final List<Widget> _widgetOptions = <Widget>[
     const HomeScreen(),
     const SearchScreen(),
-    const SearchScreen(),
+    const TicketScree(),
     const SearchScreen(),
   ];
 
@@ -33,7 +34,7 @@ class _BottomBarState extends State<BottomBar> {
         body: Center(child: _widgetOptions[_selectedIndex]),
         bottomNavigationBar: BottomNavigationBar(
           type: BottomNavigationBarType.fixed,
-          currentIndex: _selectedIndex ,
+          currentIndex: _selectedIndex,
           onTap: _onItemTapped,
           elevation: 10,
           showSelectedLabels: false,
