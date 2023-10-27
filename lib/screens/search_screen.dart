@@ -68,14 +68,13 @@ class SearchScreen extends StatelessWidget {
                 child: Column(
                   children: [
                     Container(
-                        height: 190,
-                        decoration: BoxDecoration(
+                      height: 190,
+                      decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(12),
                           image: const DecorationImage(
                               fit: BoxFit.cover,
-                              image: AssetImage("assets/images/sit.jpg"))
-                        ),
-                        ),
+                              image: AssetImage("assets/images/sit.jpg"))),
+                    ),
                     // Container(
                     //   decoration: BoxDecoration(
                     //       color: Colors.white,

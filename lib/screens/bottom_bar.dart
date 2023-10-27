@@ -1,6 +1,7 @@
 import 'package:fluentui_icons/fluentui_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:travelsmart/screens/home_screen.dart';
+import 'package:travelsmart/screens/profile_screen.dart';
 import 'package:travelsmart/screens/search_screen.dart';
 import 'package:travelsmart/screens/ticket_scree.dart';
 
@@ -25,7 +26,7 @@ class _BottomBarState extends State<BottomBar> {
     const HomeScreen(),
     const SearchScreen(),
     const TicketScree(),
-    const SearchScreen(),
+    const ProfileScreen(),
   ];
 
   @override
