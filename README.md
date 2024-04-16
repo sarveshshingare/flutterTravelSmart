@@ -32,7 +32,7 @@ To get started with this project, follow these steps:
 - Git (Version Control)
 
 ## Contributors
-- [Your Name](link to your GitHub profile) - Project Lead & UI Developer
+- Sarvesh Shingare (https://github.com/sarveshshingare) - Project Lead & UI Developer
 
 ## License
 This project is licensed under the [MIT License](/path/to/LICENSE).
