@@ -11,8 +11,8 @@ This project is a Flutter-based ticket booking application user interface (UI) d
 
 ## Screenshots
 <!-- Add screenshots of your UI here -->
-![Screenshot 1](/path/to/screenshot1.png)
-![Screenshot 2](/path/to/screenshot2.png)
+![Screenshot 1](screenshots/homescreen.jpg)
+![Screenshot 2](screenshots/profilescreen.jpg)
 <!-- Add more screenshots as needed -->
 
 ## Getting Started
