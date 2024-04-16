@@ -23,13 +23,12 @@ class SearchScreen extends StatelessWidget {
             style: Styles.headlineStyle1.copyWith(fontSize: 35),
           ),
           const Gap(20),
-          const AppTicektTabs(
-              firstTab: "Aireline tickets", secondTab: "Hotels"),
+          const AppTicektTabs(firstTab: "Metro tickets", secondTab: "Hotels"),
           const Gap(25),
-          const AppIconText(
-              icon: Icons.flight_takeoff_rounded, text: "departure"),
+          const AppIconText(icon: Icons.train_outlined, text: "departure"),
           const Gap(15),
-          const AppIconText(icon: Icons.flight_land_rounded, text: "Arrival"),
+          const AppIconText(
+              icon: Icons.transit_enterexit_outlined, text: "Arrival"),
 
           // ------------------------------------------------
           Gap(15),

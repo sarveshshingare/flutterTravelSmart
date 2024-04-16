@@ -25,8 +25,7 @@ class ProfileScreen extends StatelessWidget {
                     image: const DecorationImage(
                         fit: BoxFit.cover,
                         image: AssetImage("assets/images/img_1.png"))),
-              ),
-              Gap(10),
+              ),              Gap(10),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.start,
@@ -111,7 +110,7 @@ class ProfileScreen extends StatelessWidget {
                         shape: BoxShape.circle,
                         color: Colors.white,
                       ),
-                      child: Icon(
+                      child: const Icon(
                         FluentSystemIcons.ic_fluent_lightbulb_filament_filled,
                         color: Color(0xff526799),
                       ),
@@ -119,6 +118,7 @@ class ProfileScreen extends StatelessWidget {
                     Gap(10),
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         Text(
                           "You've got a  new award",
@@ -138,16 +138,22 @@ class ProfileScreen extends StatelessWidget {
                 ),
               ),
               Positioned(
-                  top: -45,
+                  bottom: -50,
                   right: -45,
                   child: Container(
                     padding: EdgeInsets.all(30),
                     decoration: BoxDecoration(
                         shape: BoxShape.circle,
-                        border: Border.all(width: 18, color: Colors.red),
+                        border: Border.all(
+                            width: 18, color: Color.fromARGB(255, 23, 49, 146)),
                         color: Colors.transparent),
                   )),
             ],
+          ),
+          Gap(20),
+          Text(
+            "Accumulated miles",
+            style: Styles.headlineStyle3,
           )
         ],
       ),
