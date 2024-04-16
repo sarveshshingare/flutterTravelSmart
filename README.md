@@ -7,9 +7,6 @@ This project is a Flutter-based ticket booking application user interface (UI) d
 - **Sleek UI Design:** Crafted with modern design principles and material design guidelines for an appealing visual experience.
 - **Responsive Layouts:** Ensured responsiveness across various screen sizes and orientations to maintain consistency.
 - **Interactive Widgets:** Utilized Flutter's customizable widgets to create interactive elements for enhanced user engagement.
-- **Efficient State Management:** Implemented efficient state management techniques to manage UI state and data flow effectively.
-- **Thorough Testing:** Conducted comprehensive testing across multiple devices to ensure consistent UI rendering and functionality.
-- **Integration Support:** Collaborated with backend developers for seamless integration with backend APIs.
 - **Documentation:** Documented UI design specifications, component guidelines, and best practices for future reference.
 
 ## Screenshots
@@ -27,7 +24,6 @@ To get started with this project, follow these steps:
 ## Technologies Used
 - Flutter
 - Dart
-- Provider or Riverpod (State Management)
 - Git (Version Control)
 
 ## Contributors
