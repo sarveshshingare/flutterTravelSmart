@@ -11,12 +11,12 @@ This project is a Flutter-based ticket booking application user interface (UI) d
 
 ## Screenshots
 <!-- Add screenshots of your UI here -->
-<img src="screenshots/homescreen.jpg" alt="homescreen" height="200">
+<img src="screenshots/homescreen.jpg" alt="homescreen" height="300">
+<img src="screenshots/profilescreen.jpg" alt="profilescreen" height="300">
+<img src="screenshots/seachscreen.jpg" alt="seachscreen" height="300">
+<img src="screenshots/ticketscreen.jpg" alt="ticketscreen" height="300">
 
-![Screenshot 1](screenshots/homescreen.jpg)
-![Screenshot 2](screenshots/profilescreen.jpg)
-![Screenshot 2](screenshots/seachscreen.jpg)
-![Screenshot 2](screenshots/ticketscreen.jpg)
+
 <!-- Add more screenshots as needed -->
 
 
