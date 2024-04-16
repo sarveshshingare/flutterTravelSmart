@@ -98,7 +98,7 @@ class SearchScreen extends StatelessWidget {
                     children: [
                       Container(
                         width: size.width * 0.44,
-                        height: 200,
+                        height: 240,
                         decoration: BoxDecoration(
                             color: Color(0xff3ab8b8),
                             borderRadius: BorderRadius.circular(18)),
